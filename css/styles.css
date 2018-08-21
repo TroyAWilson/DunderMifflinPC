@@ -1,0 +1,23 @@
+/*
+#cf1259
+#5acf12
+#12a0cf
+#cf4e12
+#3b74a3
+*/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
