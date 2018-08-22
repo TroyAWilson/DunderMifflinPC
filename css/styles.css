@@ -20,4 +20,140 @@ ul{
 }
 a{
   text-decoration: none;
+  color: white;
+  transition: .3s ease-out;
+}
+
+.products::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-header{
+}
+.header-list{
+  background-color: #3b74a3;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  display: none;
+}
+.header-list li{
+  /* padding: 10px 50px; */
+}
+.logo-image{
+  max-width: 150px;
+  margin-left: 50px;
+}
+.foot-button{
+  border-bottom:#3b74a3 2px dashed;
+  transition: .4s ease-out;
+}
+.product-button:hover{
+  border-bottom: #12a0cf 2px dashed;
+}
+.services-button:hover{
+  border-bottom: #cf1259 2px dashed;
+}
+.staff-button:hover{
+  border-bottom: white 2px dashed;
+}
+.dundies-button:hover{
+  border-bottom: #cf4e12 2px dashed;
+}
+.contact-button:hover{
+  border-bottom: #5acf12 2px dashed;
+}
+.content-container{
+  margin:0 100px;
+}
+.banner-image{
+  max-width: 100%;
+  display:flex;
+  margin:auto;
+}
+.color-block{
+  width:300px;
+  content: "";
+  min-height: 100%;
+  background-color:#12a0cf;
+  height: 150px;
+  margin: 25px 0;
+  margin-left:63%;
+}
+.color-services{
+  background-color: #cf1259;
+}
+.color-dundies{
+  background-color: #cf4e12;
+
+}
+.color-contact{
+  background-color: #5acf12;
+
+}
+.products,
+.services,
+.dundies,
+.contact{
+  position:relative;
+}
+.products-image{
+  position:absolute;
+  max-width: 200px;
+  bottom:75%;
+  right:20%;
+  border:1px solid #12a0cf;
+}
+.service-image{
+  position:absolute;
+  max-width: 200px;
+  bottom:75%;
+  left:20%;
+  border:1px solid #12a0cf;
+}
+.dundies-image{
+  position:absolute;
+  max-width: 200px;
+  bottom:75%;
+  right:20%;
+  border:1px solid #12a0cf;
+}
+.contact-image{
+  position:absolute;
+  max-width: 200px;
+  bottom:75%;
+  left:20%;
+  border:1px solid #12a0cf;
+}
+.products p,.services p, .dundies p, .contact p{
+  margin-top:150px;
+}
+.reverse{
+margin:0;
+}
+.staff{
+  display: flex;
+  flex-wrap: wrap;
+}
+.staff-div{
+  text-align: center;
+  flex:1;
+  max-width: 100%;
+}
+.p-link{
+  display:flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+.main-footer{
+  display: flex;
+  background-color: #3b74a3;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.footer-list li{
+  padding: 5px 2px;
 }
