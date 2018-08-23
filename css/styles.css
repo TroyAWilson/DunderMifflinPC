@@ -30,15 +30,20 @@ a{
   clear: both;
 }
 .main-header{
+  display: -webkit-inline-box;
 }
 .header-list{
+  transition: 1s;
   background-color: #3b74a3;
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  display: none;
+  opacity:0;
+  display:flex;
+  align-items: center;
+  padding:10px;
+  transform:translateX(1000px);
 }
 .header-list li{
-  /* padding: 10px 50px; */
+  padding:0 20px;
+  font-size: 1.4em;
 }
 .logo-image{
   max-width: 150px;
@@ -70,6 +75,7 @@ a{
   max-width: 100%;
   display:flex;
   margin:auto;
+  padding: 25px 0;
 }
 .color-block{
   width:300px;
