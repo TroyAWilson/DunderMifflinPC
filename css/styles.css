@@ -102,28 +102,28 @@ a{
   max-width: 200px;
   bottom:75%;
   right:20%;
-  border:1px solid #12a0cf;
+  /* border:1px solid #12a0cf; */
 }
 .service-image{
   position:absolute;
   max-width: 200px;
   bottom:75%;
   left:20%;
-  border:1px solid #12a0cf;
+  /* border:1px solid #12a0cf; */
 }
 .dundies-image{
   position:absolute;
   max-width: 200px;
   bottom:75%;
   right:20%;
-  border:1px solid #12a0cf;
+  /* border:1px solid #12a0cf; */
 }
 .contact-image{
   position:absolute;
   max-width: 200px;
   bottom:75%;
   left:20%;
-  border:1px solid #12a0cf;
+  /* border:1px solid #12a0cf; */
 }
 .products p,.services p, .dundies p, .contact p{
   margin-top:150px;
@@ -137,7 +137,10 @@ margin:0;
 }
 .staff-div{
   text-align: center;
-  flex:1;
+  max-width: 45%;
+  margin:10px
+}
+.staff-div img{
   max-width: 100%;
 }
 .p-link{
